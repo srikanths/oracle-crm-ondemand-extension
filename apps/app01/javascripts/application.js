@@ -18,7 +18,7 @@ function $get(key) {
 var copyPreviousObjectiveHandler = function() {
         var ownerId = $get('ContactCallInsert.Owner Id').val();
         var contactPerId = $get('ContactCallInsert.Contact Per Id').val();
-        var $objectiveInputElement = $get('AccountCallInsert.VONDMED Call');
+        var $objectiveInputElement = $get('ContactCallInsert.VONDMED Call');
         var objectiveValue = $objectiveInputElement.val();
         
         // already has a value so don't overwrite
