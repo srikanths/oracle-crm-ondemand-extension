@@ -1,4 +1,4 @@
-// sandbox ourselves to guarantee we don't interfere with OnDemand platform -savitha after deleting branches
+// sandbox ourselves to guarantee we don't interfere with OnDemand platform -savitha after deleting branches /now after fetch
 // JS internals
 jQuery(function($) {
     
